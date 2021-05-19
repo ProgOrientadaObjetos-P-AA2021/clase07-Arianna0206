@@ -73,7 +73,7 @@ public class ArchivoLectura {
                 // los dos primeros parametros se los relaciona
                 // con materia y nota
                 String materia = linea_partes.get(0);
-                double nota = Double.parseDouble(linea_partes.get(1).replace(",", "."));
+                double nota = Double.parseDouble(linea_partes.get(1));
                 String profesor = linea_partes.get(2);
                 
                 ArrayList<String> cadenaProfesor = new ArrayList<>(
